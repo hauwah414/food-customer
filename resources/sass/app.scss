@@ -1,0 +1,32 @@
+/*!
+* Authors: Ixvan Surya  
+* Authors Contact: suryavan08@gmail.com  
+* Copyright 2023
+* Created: April 16, 2023 
+*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+
+
+@import 'frontend/auth.scss';
+@import 'frontend/header.scss';
+@import 'frontend/footer.scss';
+@import 'frontend/sections/banner.scss';
+@import 'frontend/sections/main-menu.scss';
+@import 'frontend/sections/detail-menu.scss';
+@import 'frontend/sections/cart.scss';
+@import 'frontend/sections/history.scss';
+@import 'frontend/sections/profile.scss';
+@import 'frontend/sections/outlet.scss';
+

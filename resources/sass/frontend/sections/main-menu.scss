@@ -1,0 +1,42 @@
+.main_menu {
+    & .heading {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        @media (min-width: 768px) {
+            flex-direction: row;
+        }
+
+        @media (min-width: 922px) {
+            align-items: center;
+        }
+
+        & h2 {
+            font-weight: 500;
+            margin-bottom: 0;
+            color: $dark-blue;
+        }
+        & a {
+            text-decoration: none;
+            font-size: 500;
+            margin-bottom: 0;
+            color: $dark-blue;
+            &:hover,
+            :focus {
+                opacity: 0.8;
+            }
+        }
+    }
+}
+
+.main_menu {
+    & .card_outlet {
+        background-color: transparent;
+        box-shadow: none;
+        &:hover {
+            transition: all 0.5s ease-in-out;
+            box-shadow: 0 0.5rem 1rem rgba(33, 149, 243, 0.411);
+        }
+    }
+}

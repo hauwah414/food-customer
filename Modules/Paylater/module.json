@@ -1,0 +1,11 @@
+{
+    "name": "Paylater",
+    "alias": "paylater",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Paylater\\Providers\\PaylaterServiceProvider"
+    ],
+    "files": []
+}

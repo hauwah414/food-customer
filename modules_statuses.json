@@ -1,0 +1,17 @@
+{
+    "Product": true,
+    "Dashboard": true,
+    "Profile": true,
+    "Favorite": true,
+    "Cart": true,
+    "Checkout": true,
+    "History": true,
+    "Transaction": true,
+    "Outlet": true,
+    "Address": true,
+    "Notification": true,
+    "Rating": true,
+    "Paylater": true,
+    "Search": true,
+    "Billpayment": true
+}

@@ -1,0 +1,211 @@
+// Body
+$body-bg: #fff;
+
+// Typography
+$font-family-sans-serif: "Poppins", sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+$dark-blue: #013880;
+
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+
+.font-bold {
+    font-weight: 600 !important;
+}
+.border-blue {
+    border: 1px solid $dark-blue !important;
+}
+
+.bg {
+    &-blue {
+        background-color: $dark-blue !important;
+    }
+    &-gray {
+        &-200 {
+            background-color: $gray-200 !important;
+        }
+        &-300 {
+            background-color: $gray-300 !important;
+        }
+        &-400 {
+            background-color: $gray-400 !important;
+        }
+        &-500 {
+            background-color: $gray-500 !important;
+        }
+        &-600 {
+            background-color: $gray-600 !important;
+        }
+        &-700 {
+            background-color: $gray-700 !important;
+        }
+    }
+}
+.text {
+    &-blue {
+        color: $dark-blue !important;
+    }
+    &-gray {
+        &-300 {
+            color: $gray-300 !important;
+        }
+        &-400 {
+            color: $gray-400 !important;
+        }
+        &-500 {
+            color: $gray-500 !important;
+        }
+        &-600 {
+            color: $gray-600 !important;
+        }
+        &-700 {
+            color: $gray-700 !important;
+        }
+    }
+}
+
+.btn {
+    &_count {
+        width: 32px !important;
+        height: 32px !important;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+    &-outline-primary {
+        border: 1px solid $dark-blue !important;
+        color: $dark-blue !important;
+        &:hover,
+        &:focus {
+            background-color: $dark-blue !important;
+            color: #fff !important;
+        }
+    }
+}
+
+.form-quality {
+    &::-webkit-inner-spin-button,
+    ::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+}
+
+.btn-check:checked + .btn,
+:not(.btn-check) + .btn:active,
+.btn:first-child:active,
+.btn.active,
+.btn.show {
+    background-color: $dark-blue !important;
+    color: #fff !important;
+}
+
+.icon_logout {
+    height: 60px;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    background: $gray-100;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 1.75rem;
+    justify-content: center;
+    color: $dark-blue;
+}
+
+label {
+    &.btn-link {
+        color: $gray-500;
+        &:hover,
+        :focus {
+            color: $dark-blue !important;
+        }
+    }
+}
+
+.btn-check:checked + .btn,
+:not(.btn-check) + .btn:active,
+.btn:first-child:active,
+.btn.active,
+.btn.show {
+    color: $dark-blue !important;
+    background-color: transparent !important;
+}
+
+.btn-primary {
+    background-color: $dark-blue !important;
+    &:focus {
+        opacity: 0.8;
+    }
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.fs_head {
+    font-size: 0.9rem;
+    @media (min-width: 992px) {
+        font-size: 1.125rem;
+    }
+}
+
+.image_square {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.btn-floating {
+    z-index: 1000;
+    position: fixed;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0.7;
+    padding: 0 !important;
+    bottom: 82px;
+    right: 23px;
+    width: 52px;
+    height: 52px;
+    @media (min-width: 768px) {
+        width: 72px;
+        height: 72px;
+        right: 32px;
+    }
+    @media (min-width: 992px) {
+        bottom: 32px;
+    }
+    & span {
+        color: #338cfc;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    & img {
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+        box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.179) !important;
+        @media (min-width: 768px) {
+            width: 62px;
+            height: 62px;
+        }
+    }
+    &:hover,
+    &::after {
+        transition: all 0.5s ease;
+        opacity: 1;
+    }
+}
+ 
